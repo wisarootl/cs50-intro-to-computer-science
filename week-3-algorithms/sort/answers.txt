@@ -1,0 +1,31 @@
+sort1 uses: Bubble Sort
+
+How do you know?:From recoding run time it correspod to selection sort time complexity which is O(n^2) and Ω(n).
+
+sort2 uses: Merge Sort
+
+How do you know?: Since the run times of random50000.txt, reversed50000.txt, sorted50000.txt are quite the same.
+Time of random50000.txt and reversed50000.txt are also the fastest among all sorts for the same files.
+This is correspond to time complexity of merge sort that it is O(n log n) which is the fastest comparing to bubble sort or selection sort.
+Also, the best case is Ω(n log n) are the same as worst case. That is why all file have quite the same run time.
+
+sort3 uses: Selection Sort
+
+How do you know?: From recoding run time it correspod to selection sort time complexity which is O(n^2) and Ω(n^2).
+
+sort1
+- random50000.txt use 7.596s
+- reversed50000.txt use 5.738s
+- sorted50000.txt use 0.172s
+
+
+sort2
+- random50000.txt use 0.493s
+- reversed50000.txt use 0.488s
+- sorted50000.txt use 0.458s
+
+
+sort3
+- random50000.txt use 3.489s
+- reversed50000.txt use 3.918s
+- sorted50000.txt use 3.486s
