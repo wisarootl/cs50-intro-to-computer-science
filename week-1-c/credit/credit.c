@@ -30,7 +30,7 @@ int main(void)
     bool is_valid = (sum_of_evens + sum_of_double_odds) % 10 == 0;
     int first_two_digits = (first_digit * 10) + second_digit;
 
-    if (first_digit== 4 && num_digits >= 13 && num_digits <= 16 && is_valid)
+    if (first_digit == 4 && num_digits >= 13 && num_digits <= 16 && is_valid)
     {
         printf("VISA\n");
     }
